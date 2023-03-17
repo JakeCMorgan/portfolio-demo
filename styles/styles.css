@@ -42,7 +42,7 @@ header .logo {
 
 main {
   display: grid;
-  grid-template-rows: 2fr 3fr 3fr;
+  grid-template-rows: 3fr 3fr 3fr 1fr;
 }
 
 /* * {
@@ -148,4 +148,27 @@ div {
 
 .web-title {
   font-size: 1.5rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.contact {
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+a {
+  color: white;
 }
