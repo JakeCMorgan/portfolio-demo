@@ -8,7 +8,7 @@ body {
 }
 
 p {
-  margin: .5;
+  margin: 1;
 }
 
 header {
@@ -41,13 +41,13 @@ main {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-/* * {
+* {
   border: solid 2px rgb(83, 83, 202);
 }
 
 div {
   border: solid 1px white;
-} */
+}
 
 .intro {
   display: grid;
@@ -92,7 +92,6 @@ div {
 }
 
 /* .skills {
-  
 } */
 
 .gallery {
@@ -113,16 +112,20 @@ div {
 }
 
 .poke {
-  display: flex;
   justify-content: center;
+  display: grid;
+  grid-template-rows: 3fr 1fr 3fr;
+  text-align: center;
 }
 
 .city {
-  display: flex;
   justify-content: center;
+  display: grid;
+  grid-template-rows: 3fr 1fr 3fr;
 }
 
 .magic {
-  display: flex;
   justify-content: center;
+  display: grid;
+  grid-template-rows: 3fr 1fr 3fr;
 }
