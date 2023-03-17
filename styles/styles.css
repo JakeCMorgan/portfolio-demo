@@ -44,8 +44,8 @@ main {
   display: grid;
   grid-template-rows: 3fr 3fr 3fr 1fr;
 }
-
-/* * {
+/* 
+* {
   border: solid 2px rgb(83, 83, 202);
 }
 
@@ -168,6 +168,15 @@ div {
   text-align: center;
   font-size: 1.4rem;
 }
+
+.linkedin-img {
+  width: 100px;
+}
+
+.github-img {
+  width: 100px;
+}
+
 
 a {
   color: white;
