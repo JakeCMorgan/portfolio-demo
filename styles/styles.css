@@ -22,3 +22,41 @@ header h1 {
 header .logo {
   height: 70%;
 }
+
+.profile-img {
+  width: 350px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+/* * {
+  border: solid 3px rgb(83, 83, 202);
+}
+
+div {
+  border: solid 1px white;
+} */
+
+.bio {
+  display: grid;
+  grid-template-columns: 38% 62%;
+  align-items: center;
+}
+
+.about-me-1 {
+  padding-top: 70px;
+}
+
+.role {
+  font-size: 1.7rem;
+}
+
+.location {
+  font-size: 1.2rem;
+}
+
