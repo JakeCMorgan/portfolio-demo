@@ -29,8 +29,7 @@ header .logo {
 
 .profile-img {
   width: 350px;
-  padding-left: 30px;
-  padding-top: 30px;
+  box-shadow: 2px 10px 20px #555;
 }
 
 main {
@@ -88,6 +87,32 @@ div {
   vertical-align: middle;
 }
 
-.skills {
+/* .skills {
   
+} */
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery img {
+  width: 280px;
+  height: 190px;
+  box-shadow: 2px 10px 20px #555;
+}
+
+.poke {
+  display: flex;
+  justify-content: center;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+}
+
+.magic {
+  display: flex;
+  justify-content: center;
 }
