@@ -31,18 +31,18 @@ header .logo {
 
 main {
   display: grid;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 /* * {
-  border: solid 3px rgb(83, 83, 202);
+  border: solid 2px rgb(83, 83, 202);
 }
 
 div {
   border: solid 1px white;
 } */
 
-.bio {
+.intro {
   display: grid;
   grid-template-columns: 38% 62%;
   align-items: center;
@@ -58,5 +58,21 @@ div {
 
 .location {
   font-size: 1.2rem;
+  padding-top: 10px;
 }
 
+.bio {
+  padding-top: 20px;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+.bio-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.bio-body {
+  text-align: center;
+  font-size: 1.2rem;
+}
