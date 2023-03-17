@@ -4,6 +4,10 @@ body {
   grid-template-rows: auto 1fr;
 }
 
+p {
+  margin: .5;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -73,6 +77,17 @@ div {
 }
 
 .bio-body {
-  text-align: center;
   font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.experience {
+  padding-top: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.skills {
+  
 }
